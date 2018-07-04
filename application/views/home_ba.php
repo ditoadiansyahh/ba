@@ -81,14 +81,8 @@
   </div>
 </div>
 
-<div class="form-group">
-  <label class="col-md-4 control-label">Keterangan Pihak</label>  
-  <div class="col-md-4 inputGroupContainer">
-  <div class="input-group">
-  <input  name="jabatan" class="form-control"  value="1"  type="text">
-    </div>
-  </div>
-</div>
+<!-- keterangan pihak -->
+  <input  name="pihak1" class="form-control"  value= '1' type="hidden">
 
 <div class="form-group">
   <label class="col-md-4 control-label">Pihak 2</label>  
@@ -121,14 +115,9 @@
   </div>
 </div>
 
-<div class="form-group">
-  <label class="col-md-4 control-label">Keterangan Pihak</label>  
-  <div class="col-md-4 inputGroupContainer">
-  <div class="input-group">
-  <input  name="jabatan" class="form-control"  value= '2' type="text">
-    </div>
-  </div>
-</div>
+  <!-- keterangan pihak -->
+  <input  name="pihak2" class="form-control"  value= '2' type="hidden">
+ 
 
 
 <div class="form-group">
