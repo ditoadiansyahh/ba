@@ -112,7 +112,7 @@
   </div>
 </div>
 
-<!--
+
 <div class="form-group">
                         <label class="col-md-4 control-label">Statement</label>
                         <div class="col-md-4">
@@ -138,7 +138,7 @@
   <label class="col-md-4 control-label"></label>  
   <div class="col-md-4 inputGroupContainer">
   <div class="input-group">
-<textarea id="ta1"rows="4" cols="50" name="comment" form="ba_form" ></textarea>
+<textarea id="ta1" rows="4" cols="50" name="comment" form="ba_form" ></textarea>
     </div>
   </div>
 </div>
@@ -154,7 +154,6 @@
             document.getElementById('ta1').style.display='none';
         }
     }
- </script> -->
-
+ </script> 
 </body>
 </html>
