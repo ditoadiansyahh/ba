@@ -67,7 +67,7 @@
   <label class="col-md-4 control-label">Nama</label>  
   <div class="col-md-4 inputGroupContainer">
   <div class="input-group">
-  <input  name="nama" class="form-control"  type="text" disabled>
+  <input  name="nama" class="form-control"  type="text">
     </div>
   </div>
 </div>
@@ -76,7 +76,16 @@
   <label class="col-md-4 control-label">Jabatan</label>  
   <div class="col-md-4 inputGroupContainer">
   <div class="input-group">
-  <input  name="jabatan" class="form-control"  type="text" disabled>
+  <input  name="jabatan" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Keterangan Pihak</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <input  name="jabatan" class="form-control"  type="text">
     </div>
   </div>
 </div>
@@ -112,6 +121,15 @@
   </div>
 </div>
 
+<div class="form-group">
+  <label class="col-md-4 control-label">Keterangan Pihak</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <input  name="jabatan" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
 
 <div class="form-group">
                         <label class="col-md-4 control-label">Statement</label>
@@ -142,6 +160,8 @@
     </div>
   </div>
 </div>
+
+
 
  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
