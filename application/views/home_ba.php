@@ -11,7 +11,7 @@
   <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css'>
   <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css'>
 
-      <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/style.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
   <label class="col-md-4 control-label">Judul Berita Acara</label>  
   <div class="col-md-4 inputGroupContainer">
   <div class="input-group">
-  <input  name="judul" placeholder="Judul" class="form-control"  type="text">
+  <input  name="judul" class="form-control"  type="text">
     </div>
   </div>
 </div>
@@ -137,12 +137,14 @@
   <label class="col-md-4 control-label"></label>  
   <div class="col-md-4 inputGroupContainer">
   <div class="input-group">
-<textarea rows="4" cols="50" name="comment" form="ba_form" disabled>
-Enter text here...</textarea>
+<textarea id="ta1"rows="4" cols="50" name="comment" form="ba_form" disabled></textarea>
     </div>
   </div>
 </div>
 
+ <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js'></script>
 
 </body>
 </html>
