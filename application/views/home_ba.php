@@ -76,7 +76,7 @@
   <label class="col-md-4 control-label">Jabatan</label>  
   <div class="col-md-4 inputGroupContainer">
   <div class="input-group">
-  <input  name="jabatan" class="form-control"  type="text">
+  <input  name="jabatan" class="form-control" type="text" >
     </div>
   </div>
 </div>
@@ -85,7 +85,7 @@
   <label class="col-md-4 control-label">Keterangan Pihak</label>  
   <div class="col-md-4 inputGroupContainer">
   <div class="input-group">
-  <input  name="jabatan" class="form-control"  type="text">
+  <input  name="jabatan" class="form-control"  value="1"  type="text">
     </div>
   </div>
 </div>
@@ -125,7 +125,7 @@
   <label class="col-md-4 control-label">Keterangan Pihak</label>  
   <div class="col-md-4 inputGroupContainer">
   <div class="input-group">
-  <input  name="jabatan" class="form-control"  type="text">
+  <input  name="jabatan" class="form-control"  value= '2' type="text" >
     </div>
   </div>
 </div>
@@ -136,17 +136,17 @@
                         <div class="col-md-4">
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="hosting" onclick='ta_display(1)' value="barangmasuk" /> Barang masuk
+                                    <input type="radio" name="hosting" onclick='ta_display(0)' value="barangmasuk" /> Barang masuk
                                 </label>
                             </div>
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="hosting" onclick='ta_display(1)' value="barangkeluar" /> Barang keluar
+                                    <input type="radio" name="hosting" onclick='ta_display(0)' value="barangkeluar" /> Barang keluar
                                 </label>
                             </div>
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="hosting" onclick='ta_display(0)' value="custom" /> Custom
+                                    <input type="radio" name="hosting" onclick='ta_display(1)' value="custom" /> Custom
                                 </label>
                             </div>
                         </div>
