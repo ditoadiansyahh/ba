@@ -83,6 +83,7 @@
 
 <!-- keterangan pihak -->
   <input  name="pihak1" class="form-control"  value= '1' type="hidden">
+<!-- keterangan pihak -->
 
 <div class="form-group">
   <label class="col-md-4 control-label">Pihak 2</label>  
@@ -117,7 +118,7 @@
 
   <!-- keterangan pihak -->
   <input  name="pihak2" class="form-control"  value= '2' type="hidden">
- 
+ <!-- keterangan pihak -->
 
 
 <div class="form-group">
