@@ -137,7 +137,7 @@
   <label class="col-md-4 control-label"></label>  
   <div class="col-md-4 inputGroupContainer">
   <div class="input-group">
-<textarea id="ta1"rows="4" cols="50" name="comment" form="ba_form" disabled></textarea>
+<textarea id="ta1"rows="4" cols="50" name="comment" form="ba_form"></textarea>
     </div>
   </div>
 </div>
