@@ -125,7 +125,7 @@
   <label class="col-md-4 control-label">Keterangan Pihak</label>  
   <div class="col-md-4 inputGroupContainer">
   <div class="input-group">
-  <input  name="jabatan" class="form-control"  value= '2' type="text" >
+  <input  name="jabatan" class="form-control"  value= '2' type="text">
     </div>
   </div>
 </div>
