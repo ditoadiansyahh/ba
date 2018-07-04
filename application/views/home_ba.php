@@ -11,8 +11,9 @@
   <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css'>
   <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css'>
 
-  <link rel="stylesheet" href="<?php echo base_url()?>assets/css/style.css">
-</head>
+ <!-- <link rel="stylesheet" href="<?php echo base_url()?>assets/css/style.css">
+</head> -->
+<link rel="stylesheet" href='assets/css/style.css'>
 
 <body>
  <div class="container">
@@ -111,23 +112,23 @@
   </div>
 </div>
 
-
+<!--
 <div class="form-group">
                         <label class="col-md-4 control-label">Statement</label>
                         <div class="col-md-4">
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="hosting" value="barangmasuk" /> Barang masuk
+                                    <input type="radio" name="hosting" onclick='ta_display(1)' value="barangmasuk" /> Barang masuk
                                 </label>
                             </div>
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="hosting" value="barangkeluar" /> Barang keluar
+                                    <input type="radio" name="hosting" onclick='ta_display(1)' value="barangkeluar" /> Barang keluar
                                 </label>
                             </div>
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="hosting" value="custom" /> Custom
+                                    <input type="radio" name="hosting" onclick='ta_display(0)' value="custom" /> Custom
                                 </label>
                             </div>
                         </div>
@@ -137,7 +138,7 @@
   <label class="col-md-4 control-label"></label>  
   <div class="col-md-4 inputGroupContainer">
   <div class="input-group">
-<textarea id="ta1"rows="4" cols="50" name="comment" form="ba_form" disabled></textarea>
+<textarea id="ta1"rows="4" cols="50" name="comment" form="ba_form" ></textarea>
     </div>
   </div>
 </div>
@@ -145,6 +146,15 @@
  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js'></script>
+ <script>
+    function ta_display(x) {
+        if (x==0) {
+            document.getElementById('ta1').style.display='block';
+        else
+            document.getElementById('ta1').style.display='none';
+        }
+    }
+ </script> -->
 
 </body>
 </html>
